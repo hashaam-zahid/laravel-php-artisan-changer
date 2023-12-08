@@ -11,7 +11,6 @@ This project demonstrates how to create a Laravel controller method that generat
 
 ## Features
 
-- Create a `.bat` file to change Artisan commands
 - Customize the commands as per user input
 - Download the generated `.bat` file
 
@@ -20,38 +19,44 @@ This project demonstrates how to create a Laravel controller method that generat
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone [https://github.com/yourusername/your-repo.git](https://github.com/hashaam-zahid/laravel-php-artisan-changer)
 ```
 
-2. Install composer dependencies:
 
-```bash
-composer install
-```
-
-3. Set up your environment variables by renaming `.env.example` to `.env` and filling in the necessary information.
-
-4. Generate the application key:
-
-```bash
-php artisan key:generate
-```
-
-5. Start the development server:
+2. Start the development server:
 
 ```bash
 php artisan serve
 ```
 
-6. Access the application in your browser at `http://localhost:8000`.
+3. Access the application in your browser at `http://localhost:8000`.
+
+## Folder Files Structure
+```
+├── Laravel/
+│   ├── Controller/
+│   │             ├── CommandController.php
+│   ├── Routes/
+│   │          ├──web.php ( paste the code )
+├──  Resource/View/
+                   ├──form.blade.php
+                    ├──result.blade.php                  
+│   ├── Storage/app/ 
+│                   ├── guide.gif
+│   
+│
+└──
+```
 
 ## Usage
 
 1. Access the application in your browser.
 
-2. Enter the desired command in the input field and click "Generate File".
+2. Enter the Desireable command which you want to change PHP Artisan to e.x PA 
 
-3. Click the "Download Generated File" link to download the `.bat` file.
+3. Click the "Download Generated File doskey.bat" link to download the `.bat` file link.
+4. Copy the Command Location 
+5. And Past in CMD Property Target Field 
 
 ## Contributing
 
@@ -67,7 +72,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or feedback, feel free to contact [yourname](mailto:youremail@example.com).
+For any questions or feedback, feel free to contact [Hashaam Zahid](mailto:hashaamzahid3@gmail.com).
 ```
 
 Make sure to include a `LICENSE` file in the root directory of your project containing the text of the MIT License. The license text can be obtained from [opensource.org/licenses/MIT](https://opensource.org/licenses/MIT). You can create a file named `LICENSE` and paste the license text inside it.
