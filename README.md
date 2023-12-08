@@ -1,4 +1,3 @@
-Certainly! Here's an example README file incorporating the MIT License:
 
 ```markdown
 # Laravel Artisan Command Changer
