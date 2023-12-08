@@ -19,7 +19,7 @@ This project demonstrates how to create a Laravel controller method that generat
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/yourusername/your-repo.git](https://github.com/hashaam-zahid/laravel-php-artisan-changer)
+git clone [Laravel PHP Artisan Changer](https://github.com/hashaam-zahid/laravel-php-artisan-changer.git)
 ```
 
 
