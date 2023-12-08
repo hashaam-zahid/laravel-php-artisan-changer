@@ -28,6 +28,7 @@ git clone [Repository Link](https://github.com/hashaam-zahid/laravel-php-artisan
 ```bash
 php artisan serve
 ```
+
 3. Access the application in your browser at `http://localhost:8000`.
 
 4- Open The Form and Enter The Desireable command PHP Artisan to e.x Pa
